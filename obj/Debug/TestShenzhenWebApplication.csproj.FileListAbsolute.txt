@@ -1,0 +1,99 @@
+C:\Users\dongx\Desktop\New folder\WinhecShenzhenWebApplication\bin\WinhecShenzhenWebApplication.dll.config
+C:\Users\dongx\Desktop\New folder\WinhecShenzhenWebApplication\bin\WinhecShenzhenWebApplication.dll
+C:\Users\dongx\Desktop\New folder\WinhecShenzhenWebApplication\bin\WinhecShenzhenWebApplication.pdb
+C:\Users\dongx\Desktop\New folder\WinhecShenzhenWebApplication\bin\EntityFramework.dll
+C:\Users\dongx\Desktop\New folder\WinhecShenzhenWebApplication\bin\EntityFramework.SqlServer.dll
+C:\Users\dongx\Desktop\New folder\WinhecShenzhenWebApplication\bin\Newtonsoft.Json.dll
+C:\Users\dongx\Desktop\New folder\WinhecShenzhenWebApplication\bin\EntityFramework.xml
+C:\Users\dongx\Desktop\New folder\WinhecShenzhenWebApplication\bin\EntityFramework.SqlServer.xml
+C:\Users\dongx\Desktop\New folder\WinhecShenzhenWebApplication\bin\Newtonsoft.Json.xml
+C:\Users\dongx\Desktop\New folder\WinhecShenzhenWebApplication\obj\Debug\TestShenzhenWebApplication.csprojResolveAssemblyReference.cache
+C:\Users\dongx\Desktop\New folder\WinhecShenzhenWebApplication\obj\Debug\TestShenzhenWebApplication.Migrations.addeventandpartnercompanymodel.resources
+C:\Users\dongx\Desktop\New folder\WinhecShenzhenWebApplication\obj\Debug\TestShenzhenWebApplication.Migrations.addissuemodel.resources
+C:\Users\dongx\Desktop\New folder\WinhecShenzhenWebApplication\obj\Debug\TestShenzhenWebApplication.Migrations.addissuemodelfeaturebool.resources
+C:\Users\dongx\Desktop\New folder\WinhecShenzhenWebApplication\obj\Debug\TestShenzhenWebApplication.Migrations.addissuemodelfeatureupdatename.resources
+C:\Users\dongx\Desktop\New folder\WinhecShenzhenWebApplication\obj\Debug\TestShenzhenWebApplication.Migrations.addissuemodeladdedtypecontentcolumn.resources
+C:\Users\dongx\Desktop\New folder\WinhecShenzhenWebApplication\obj\Debug\TestShenzhenWebApplication.Migrations.addissuemodeladdedtypecontentcolumn2.resources
+C:\Users\dongx\Desktop\New folder\WinhecShenzhenWebApplication\obj\Debug\TestShenzhenWebApplication.Migrations.updateissueproductmpstring.resources
+C:\Users\dongx\Desktop\New folder\WinhecShenzhenWebApplication\obj\Debug\TestShenzhenWebApplication.Migrations.issueupdatefromremove4g.resources
+C:\Users\dongx\Desktop\New folder\WinhecShenzhenWebApplication\obj\Debug\TestShenzhenWebApplication.Migrations.addsuverymodel.resources
+C:\Users\dongx\Desktop\New folder\WinhecShenzhenWebApplication\obj\Debug\TestShenzhenWebApplication.Migrations.addissuesupportreply.resources
+C:\Users\dongx\Desktop\New folder\WinhecShenzhenWebApplication\obj\Debug\TestShenzhenWebApplication.Migrations.addadminusermodel.resources
+C:\Users\dongx\Desktop\New folder\WinhecShenzhenWebApplication\obj\Debug\TestShenzhenWebApplication.Migrations.addadminusermodelupdate.resources
+C:\Users\dongx\Desktop\New folder\WinhecShenzhenWebApplication\obj\Debug\TestShenzhenWebApplication.Migrations.addissuehistory.resources
+C:\Users\dongx\Desktop\New folder\WinhecShenzhenWebApplication\obj\Debug\TestShenzhenWebApplication.Migrations.addissuehistoryupdate.resources
+C:\Users\dongx\Desktop\New folder\WinhecShenzhenWebApplication\obj\Debug\TestShenzhenWebApplication.Migrations.updatealltohistory.resources
+C:\Users\dongx\Desktop\New folder\WinhecShenzhenWebApplication\obj\Debug\TestShenzhenWebApplication.Migrations.test1.resources
+C:\Users\dongx\Desktop\New folder\WinhecShenzhenWebApplication\obj\Debug\TestShenzhenWebApplication.Migrations.test2.resources
+C:\Users\dongx\Desktop\New folder\WinhecShenzhenWebApplication\obj\Debug\TestShenzhenWebApplication.Migrations.test3.resources
+C:\Users\dongx\Desktop\New folder\WinhecShenzhenWebApplication\obj\Debug\TestShenzhenWebApplication.Migrations.regpartneradd.resources
+C:\Users\dongx\Desktop\New folder\WinhecShenzhenWebApplication\obj\Debug\TestShenzhenWebApplication.Migrations.updatecompanypartner.resources
+C:\Users\dongx\Desktop\New folder\WinhecShenzhenWebApplication\obj\Debug\TestShenzhenWebApplication.Migrations.fixregpartnererror.resources
+C:\Users\dongx\Desktop\New folder\WinhecShenzhenWebApplication\obj\Debug\TestShenzhenWebApplication.Migrations.addtaglunchtoreg.resources
+C:\Users\dongx\Desktop\New folder\WinhecShenzhenWebApplication\obj\Debug\TestShenzhenWebApplication.csproj.GenerateResource.Cache
+C:\Users\dongx\Desktop\New folder\WinhecShenzhenWebApplication\obj\Debug\WinhecShenzhenWebApplication.dll
+C:\Users\dongx\Desktop\New folder\WinhecShenzhenWebApplication\obj\Debug\WinhecShenzhenWebApplication.pdb
+C:\Users\Administrator\Desktop\alpha\blbll\bin\WinhecShenzhenWebApplication.dll.config
+C:\Users\Administrator\Desktop\alpha\blbll\bin\WinhecShenzhenWebApplication.dll
+C:\Users\Administrator\Desktop\alpha\blbll\bin\WinhecShenzhenWebApplication.pdb
+C:\Users\Administrator\Desktop\alpha\blbll\bin\EntityFramework.xml
+C:\Users\Administrator\Desktop\alpha\blbll\bin\EntityFramework.SqlServer.xml
+C:\Users\Administrator\Desktop\alpha\blbll\bin\Newtonsoft.Json.xml
+C:\Users\Administrator\Desktop\alpha\blbll\obj\Debug\TestShenzhenWebApplication.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\alpha\blbll\obj\Debug\TestShenzhenWebApplication.Migrations.addeventandpartnercompanymodel.resources
+C:\Users\Administrator\Desktop\alpha\blbll\obj\Debug\TestShenzhenWebApplication.Migrations.addissuemodel.resources
+C:\Users\Administrator\Desktop\alpha\blbll\obj\Debug\TestShenzhenWebApplication.Migrations.addissuemodelfeaturebool.resources
+C:\Users\Administrator\Desktop\alpha\blbll\obj\Debug\TestShenzhenWebApplication.Migrations.addissuemodelfeatureupdatename.resources
+C:\Users\Administrator\Desktop\alpha\blbll\obj\Debug\TestShenzhenWebApplication.Migrations.addissuemodeladdedtypecontentcolumn.resources
+C:\Users\Administrator\Desktop\alpha\blbll\obj\Debug\TestShenzhenWebApplication.Migrations.addissuemodeladdedtypecontentcolumn2.resources
+C:\Users\Administrator\Desktop\alpha\blbll\obj\Debug\TestShenzhenWebApplication.Migrations.updateissueproductmpstring.resources
+C:\Users\Administrator\Desktop\alpha\blbll\obj\Debug\TestShenzhenWebApplication.Migrations.issueupdatefromremove4g.resources
+C:\Users\Administrator\Desktop\alpha\blbll\obj\Debug\TestShenzhenWebApplication.Migrations.addsuverymodel.resources
+C:\Users\Administrator\Desktop\alpha\blbll\obj\Debug\TestShenzhenWebApplication.Migrations.addissuesupportreply.resources
+C:\Users\Administrator\Desktop\alpha\blbll\obj\Debug\TestShenzhenWebApplication.Migrations.addadminusermodel.resources
+C:\Users\Administrator\Desktop\alpha\blbll\obj\Debug\TestShenzhenWebApplication.Migrations.addadminusermodelupdate.resources
+C:\Users\Administrator\Desktop\alpha\blbll\obj\Debug\TestShenzhenWebApplication.Migrations.addissuehistory.resources
+C:\Users\Administrator\Desktop\alpha\blbll\obj\Debug\TestShenzhenWebApplication.Migrations.addissuehistoryupdate.resources
+C:\Users\Administrator\Desktop\alpha\blbll\obj\Debug\TestShenzhenWebApplication.Migrations.updatealltohistory.resources
+C:\Users\Administrator\Desktop\alpha\blbll\obj\Debug\TestShenzhenWebApplication.Migrations.test1.resources
+C:\Users\Administrator\Desktop\alpha\blbll\obj\Debug\TestShenzhenWebApplication.Migrations.test2.resources
+C:\Users\Administrator\Desktop\alpha\blbll\obj\Debug\TestShenzhenWebApplication.Migrations.test3.resources
+C:\Users\Administrator\Desktop\alpha\blbll\obj\Debug\TestShenzhenWebApplication.Migrations.regpartneradd.resources
+C:\Users\Administrator\Desktop\alpha\blbll\obj\Debug\TestShenzhenWebApplication.Migrations.updatecompanypartner.resources
+C:\Users\Administrator\Desktop\alpha\blbll\obj\Debug\TestShenzhenWebApplication.Migrations.fixregpartnererror.resources
+C:\Users\Administrator\Desktop\alpha\blbll\obj\Debug\TestShenzhenWebApplication.Migrations.addtaglunchtoreg.resources
+C:\Users\Administrator\Desktop\alpha\blbll\obj\Debug\TestShenzhenWebApplication.csproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\alpha\blbll\obj\Debug\WinhecShenzhenWebApplication.dll
+C:\Users\Administrator\Desktop\alpha\blbll\obj\Debug\WinhecShenzhenWebApplication.pdb
+C:\Users\Administrator\Desktop\blbll\bin\WinhecShenzhenWebApplication.dll.config
+C:\Users\Administrator\Desktop\blbll\bin\WinhecShenzhenWebApplication.dll
+C:\Users\Administrator\Desktop\blbll\bin\WinhecShenzhenWebApplication.pdb
+C:\Users\Administrator\Desktop\blbll\bin\EntityFramework.xml
+C:\Users\Administrator\Desktop\blbll\bin\EntityFramework.SqlServer.xml
+C:\Users\Administrator\Desktop\blbll\bin\Newtonsoft.Json.xml
+C:\Users\Administrator\Desktop\blbll\obj\Debug\TestShenzhenWebApplication.csprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\blbll\obj\Debug\TestShenzhenWebApplication.Migrations.addeventandpartnercompanymodel.resources
+C:\Users\Administrator\Desktop\blbll\obj\Debug\TestShenzhenWebApplication.Migrations.addissuemodel.resources
+C:\Users\Administrator\Desktop\blbll\obj\Debug\TestShenzhenWebApplication.Migrations.addissuemodelfeaturebool.resources
+C:\Users\Administrator\Desktop\blbll\obj\Debug\TestShenzhenWebApplication.Migrations.addissuemodelfeatureupdatename.resources
+C:\Users\Administrator\Desktop\blbll\obj\Debug\TestShenzhenWebApplication.Migrations.addissuemodeladdedtypecontentcolumn.resources
+C:\Users\Administrator\Desktop\blbll\obj\Debug\TestShenzhenWebApplication.Migrations.addissuemodeladdedtypecontentcolumn2.resources
+C:\Users\Administrator\Desktop\blbll\obj\Debug\TestShenzhenWebApplication.Migrations.updateissueproductmpstring.resources
+C:\Users\Administrator\Desktop\blbll\obj\Debug\TestShenzhenWebApplication.Migrations.issueupdatefromremove4g.resources
+C:\Users\Administrator\Desktop\blbll\obj\Debug\TestShenzhenWebApplication.Migrations.addsuverymodel.resources
+C:\Users\Administrator\Desktop\blbll\obj\Debug\TestShenzhenWebApplication.Migrations.addissuesupportreply.resources
+C:\Users\Administrator\Desktop\blbll\obj\Debug\TestShenzhenWebApplication.Migrations.addadminusermodel.resources
+C:\Users\Administrator\Desktop\blbll\obj\Debug\TestShenzhenWebApplication.Migrations.addadminusermodelupdate.resources
+C:\Users\Administrator\Desktop\blbll\obj\Debug\TestShenzhenWebApplication.Migrations.addissuehistory.resources
+C:\Users\Administrator\Desktop\blbll\obj\Debug\TestShenzhenWebApplication.Migrations.addissuehistoryupdate.resources
+C:\Users\Administrator\Desktop\blbll\obj\Debug\TestShenzhenWebApplication.Migrations.updatealltohistory.resources
+C:\Users\Administrator\Desktop\blbll\obj\Debug\TestShenzhenWebApplication.Migrations.test1.resources
+C:\Users\Administrator\Desktop\blbll\obj\Debug\TestShenzhenWebApplication.Migrations.test2.resources
+C:\Users\Administrator\Desktop\blbll\obj\Debug\TestShenzhenWebApplication.Migrations.test3.resources
+C:\Users\Administrator\Desktop\blbll\obj\Debug\TestShenzhenWebApplication.Migrations.regpartneradd.resources
+C:\Users\Administrator\Desktop\blbll\obj\Debug\TestShenzhenWebApplication.Migrations.updatecompanypartner.resources
+C:\Users\Administrator\Desktop\blbll\obj\Debug\TestShenzhenWebApplication.Migrations.fixregpartnererror.resources
+C:\Users\Administrator\Desktop\blbll\obj\Debug\TestShenzhenWebApplication.Migrations.addtaglunchtoreg.resources
+C:\Users\Administrator\Desktop\blbll\obj\Debug\TestShenzhenWebApplication.csproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\blbll\obj\Debug\WinhecShenzhenWebApplication.dll
+C:\Users\Administrator\Desktop\blbll\obj\Debug\WinhecShenzhenWebApplication.pdb

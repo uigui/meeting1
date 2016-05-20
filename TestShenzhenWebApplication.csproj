@@ -1,0 +1,565 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{1CDF6002-7E33-4054-B938-3D793953DE17}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WinhecShenzhenWebApplication</RootNamespace>
+    <AssemblyName>WinhecShenzhenWebApplication</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.2\lib\net45\EntityFramework.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.2\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.6.0.8\lib\net45\Newtonsoft.Json.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Agenda.aspx" />
+    <Content Include="Content\bootstrap-theme.css" />
+    <Content Include="Content\bootstrap-theme.min.css" />
+    <Content Include="Content\bootstrap.css" />
+    <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\DataTables\css\dataTables.autoFill.css" />
+    <Content Include="Content\DataTables\css\dataTables.autoFill.min.css" />
+    <Content Include="Content\DataTables\css\dataTables.bootstrap.css" />
+    <Content Include="Content\DataTables\css\dataTables.colReorder.css" />
+    <Content Include="Content\DataTables\css\dataTables.colReorder.min.css" />
+    <Content Include="Content\DataTables\css\dataTables.colVis.css" />
+    <Content Include="Content\DataTables\css\dataTables.colvis.jqueryui.css" />
+    <Content Include="Content\DataTables\css\dataTables.colVis.min.css" />
+    <Content Include="Content\DataTables\css\dataTables.fixedColumns.css" />
+    <Content Include="Content\DataTables\css\dataTables.fixedColumns.min.css" />
+    <Content Include="Content\DataTables\css\dataTables.fixedHeader.css" />
+    <Content Include="Content\DataTables\css\dataTables.fixedHeader.min.css" />
+    <Content Include="Content\DataTables\css\dataTables.foundation.css" />
+    <Content Include="Content\DataTables\css\dataTables.jqueryui.css" />
+    <Content Include="Content\DataTables\css\dataTables.keyTable.css" />
+    <Content Include="Content\DataTables\css\dataTables.keyTable.min.css" />
+    <Content Include="Content\DataTables\css\dataTables.responsive.css" />
+    <Content Include="Content\DataTables\css\dataTables.scroller.css" />
+    <Content Include="Content\DataTables\css\dataTables.scroller.min.css" />
+    <Content Include="Content\DataTables\css\dataTables.tableTools.css" />
+    <Content Include="Content\DataTables\css\dataTables.tableTools.min.css" />
+    <Content Include="Content\DataTables\css\jquery.dataTables.css" />
+    <Content Include="Content\DataTables\css\jquery.dataTables.min.css" />
+    <Content Include="Content\DataTables\css\jquery.dataTables_themeroller.css" />
+    <Content Include="Content\DataTables\images\background.png" />
+    <Content Include="Content\DataTables\images\back_disabled.png" />
+    <Content Include="Content\DataTables\images\back_enabled.png" />
+    <Content Include="Content\DataTables\images\back_enabled_hover.png" />
+    <Content Include="Content\DataTables\images\collection.png" />
+    <Content Include="Content\DataTables\images\collection_hover.png" />
+    <Content Include="Content\DataTables\images\copy.png" />
+    <Content Include="Content\DataTables\images\copy_hover.png" />
+    <Content Include="Content\DataTables\images\csv.png" />
+    <Content Include="Content\DataTables\images\csv_hover.png" />
+    <Content Include="Content\DataTables\images\details_close.png" />
+    <Content Include="Content\DataTables\images\details_open.png" />
+    <Content Include="Content\DataTables\images\filler.png" />
+    <Content Include="Content\DataTables\images\forward_disabled.png" />
+    <Content Include="Content\DataTables\images\forward_enabled.png" />
+    <Content Include="Content\DataTables\images\forward_enabled_hover.png" />
+    <Content Include="Content\DataTables\images\insert.png" />
+    <Content Include="Content\DataTables\images\loading-background.png" />
+    <Content Include="Content\DataTables\images\pdf.png" />
+    <Content Include="Content\DataTables\images\pdf_hover.png" />
+    <Content Include="Content\DataTables\images\print.png" />
+    <Content Include="Content\DataTables\images\print_hover.png" />
+    <Content Include="Content\DataTables\images\sort_asc.png" />
+    <Content Include="Content\DataTables\images\sort_asc_disabled.png" />
+    <Content Include="Content\DataTables\images\sort_both.png" />
+    <Content Include="Content\DataTables\images\sort_desc.png" />
+    <Content Include="Content\DataTables\images\sort_desc_disabled.png" />
+    <Content Include="Content\DataTables\images\xls.png" />
+    <Content Include="Content\DataTables\images\xls_hover.png" />
+    <Content Include="Content\DataTables\swf\copy_csv_xls.swf" />
+    <Content Include="Content\DataTables\swf\copy_csv_xls_pdf.swf" />
+    <Content Include="Default.aspx" />
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="index.html" />
+    <Content Include="json-to-table.js" />
+    <Content Include="packages.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="Content\bootstrap.css.map" />
+    <Content Include="Content\bootstrap-theme.css.map" />
+    <Content Include="api\issuesubmit.ashx" />
+    <Content Include="api\suverysubmit.ashx" />
+    <Content Include="Content\DataTables\css\dataTables.responsive.scss" />
+    <Content Include="Content\DataTables\css\dataTables.jqueryui.scss" />
+    <Content Include="admin\Default.aspx" />
+    <Content Include="admin\partnerManagement\AddCompany.aspx" />
+    <Content Include="admin\partnerManagement\AddPartner.aspx" />
+    <Content Include="admin\partnerManagement\Default.aspx" />
+    <Content Include="admin\partnerManagement\ManageCompany.aspx" />
+    <Content Include="admin\partnerManagement\Stat.aspx" />
+    <Content Include="admin\partnerManagement\UpdateCompany.aspx" />
+    <Content Include="admin\partnerManagement\UpdatePartner.aspx" />
+    <Content Include="user\PartnerPublicRegistration.aspx" />
+    <Content Include="api\PartnerRegStatusUpdate.ashx" />
+    <Content Include="api\PartnerRegShowData.ashx" />
+    <None Include="Properties\PublishProfiles\peweb - FTP %282%29.pubxml" />
+    <None Include="Properties\PublishProfiles\peweb - FTP.pubxml" />
+    <None Include="Properties\PublishProfiles\peweb - Web Deploy %282%29.pubxml" />
+    <None Include="Properties\PublishProfiles\peweb - Web Deploy.pubxml" />
+    <None Include="Properties\PublishProfiles\WinhecShenzhen - FTP %282%29.pubxml" />
+    <None Include="Properties\PublishProfiles\WinhecShenzhen - FTP %283%29.pubxml" />
+    <None Include="Properties\PublishProfiles\WinhecShenzhen - FTP.pubxml" />
+    <None Include="Properties\PublishProfiles\WinhecShenzhen - Web Deploy %282%29.pubxml" />
+    <None Include="Properties\PublishProfiles\WinhecShenzhen - Web Deploy %283%29.pubxml" />
+    <None Include="Properties\PublishProfiles\WinhecShenzhen - Web Deploy.pubxml" />
+    <None Include="Scripts\jquery-1.9.1.intellisense.js" />
+    <Content Include="admin\IssueManagement\Default.aspx" />
+    <Content Include="admin\IssueManagement\IssueDetail.aspx" />
+    <Content Include="admin\login.aspx" />
+    <Content Include="admin\IssueManagement\Stat.aspx" />
+    <Content Include="admin\Test.aspx" />
+    <Content Include="admin\UserInfo.aspx" />
+    <Content Include="Scripts\bootstrap.js" />
+    <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="Scripts\DataTables\dataTables.autoFill.js" />
+    <Content Include="Scripts\DataTables\dataTables.autoFill.min.js" />
+    <Content Include="Scripts\DataTables\dataTables.bootstrap.js" />
+    <Content Include="Scripts\DataTables\dataTables.colReorder.js" />
+    <Content Include="Scripts\DataTables\dataTables.colReorder.min.js" />
+    <Content Include="Scripts\DataTables\dataTables.colVis.js" />
+    <Content Include="Scripts\DataTables\dataTables.colVis.min.js" />
+    <Content Include="Scripts\DataTables\dataTables.fixedColumns.js" />
+    <Content Include="Scripts\DataTables\dataTables.fixedColumns.min.js" />
+    <Content Include="Scripts\DataTables\dataTables.fixedHeader.js" />
+    <Content Include="Scripts\DataTables\dataTables.fixedHeader.min.js" />
+    <Content Include="Scripts\DataTables\dataTables.foundation.js" />
+    <Content Include="Scripts\DataTables\dataTables.jqueryui.js" />
+    <Content Include="Scripts\DataTables\dataTables.keyTable.js" />
+    <Content Include="Scripts\DataTables\dataTables.keyTable.min.js" />
+    <Content Include="Scripts\DataTables\dataTables.responsive.js" />
+    <Content Include="Scripts\DataTables\dataTables.responsive.min.js" />
+    <Content Include="Scripts\DataTables\dataTables.scroller.js" />
+    <Content Include="Scripts\DataTables\dataTables.scroller.min.js" />
+    <Content Include="Scripts\DataTables\dataTables.tableTools.js" />
+    <Content Include="Scripts\DataTables\dataTables.tableTools.min.js" />
+    <Content Include="Scripts\DataTables\jquery.dataTables.js" />
+    <Content Include="Scripts\DataTables\jquery.dataTables.min.js" />
+    <Content Include="Scripts\jquery-1.9.1.js" />
+    <Content Include="Scripts\jquery-1.9.1.min.js" />
+    <Content Include="Scripts\jquery-1.9.1.min.map" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <Content Include="Suvery.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Agenda.aspx.cs">
+      <DependentUpon>Agenda.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Agenda.aspx.designer.cs">
+      <DependentUpon>Agenda.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="api\issuesubmit.ashx.cs">
+      <DependentUpon>issuesubmit.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="api\PartnerRegShowData.ashx.cs">
+      <DependentUpon>PartnerRegShowData.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="api\PartnerRegStatusUpdate.ashx.cs">
+      <DependentUpon>PartnerRegStatusUpdate.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="api\suverysubmit.ashx.cs">
+      <DependentUpon>suverysubmit.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="AzureDBContext.cs" />
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201508281156455_add-event-and-partnercompany-model.cs" />
+    <Compile Include="Migrations\201508281156455_add-event-and-partnercompany-model.Designer.cs">
+      <DependentUpon>201508281156455_add-event-and-partnercompany-model.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201508300839506_add-issue-model.cs" />
+    <Compile Include="Migrations\201508300839506_add-issue-model.Designer.cs">
+      <DependentUpon>201508300839506_add-issue-model.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201508301211390_add-issue-model-feature-bool.cs" />
+    <Compile Include="Migrations\201508301211390_add-issue-model-feature-bool.Designer.cs">
+      <DependentUpon>201508301211390_add-issue-model-feature-bool.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201508301251000_add-issue-model-feature-update-name.cs" />
+    <Compile Include="Migrations\201508301251000_add-issue-model-feature-update-name.Designer.cs">
+      <DependentUpon>201508301251000_add-issue-model-feature-update-name.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201508301308293_add-issue-model-added-type-content-column.cs" />
+    <Compile Include="Migrations\201508301308293_add-issue-model-added-type-content-column.Designer.cs">
+      <DependentUpon>201508301308293_add-issue-model-added-type-content-column.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201508301355445_add-issue-model-added-type-content-column2.cs" />
+    <Compile Include="Migrations\201508301355445_add-issue-model-added-type-content-column2.Designer.cs">
+      <DependentUpon>201508301355445_add-issue-model-added-type-content-column2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201508301448549_update-issue-product-mp-string.cs" />
+    <Compile Include="Migrations\201508301448549_update-issue-product-mp-string.Designer.cs">
+      <DependentUpon>201508301448549_update-issue-product-mp-string.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201508310823238_issue-update-from-remove-4g.cs" />
+    <Compile Include="Migrations\201508310823238_issue-update-from-remove-4g.Designer.cs">
+      <DependentUpon>201508310823238_issue-update-from-remove-4g.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201508311419092_add-suvery-model.cs" />
+    <Compile Include="Migrations\201508311419092_add-suvery-model.Designer.cs">
+      <DependentUpon>201508311419092_add-suvery-model.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201508311648216_add-issue-support-reply.cs" />
+    <Compile Include="Migrations\201508311648216_add-issue-support-reply.Designer.cs">
+      <DependentUpon>201508311648216_add-issue-support-reply.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201509061403542_add-admin-user-model.cs" />
+    <Compile Include="Migrations\201509061403542_add-admin-user-model.Designer.cs">
+      <DependentUpon>201509061403542_add-admin-user-model.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201509061426571_add-admin-user-model-update.cs" />
+    <Compile Include="Migrations\201509061426571_add-admin-user-model-update.Designer.cs">
+      <DependentUpon>201509061426571_add-admin-user-model-update.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201509070700350_add-issue-history.cs" />
+    <Compile Include="Migrations\201509070700350_add-issue-history.Designer.cs">
+      <DependentUpon>201509070700350_add-issue-history.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201509070704500_add-issue-history-update.cs" />
+    <Compile Include="Migrations\201509070704500_add-issue-history-update.Designer.cs">
+      <DependentUpon>201509070704500_add-issue-history-update.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201509070755136_update-all-to-history.cs" />
+    <Compile Include="Migrations\201509070755136_update-all-to-history.Designer.cs">
+      <DependentUpon>201509070755136_update-all-to-history.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201509070812111_test-1.cs" />
+    <Compile Include="Migrations\201509070812111_test-1.Designer.cs">
+      <DependentUpon>201509070812111_test-1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201509070812439_test-2.cs" />
+    <Compile Include="Migrations\201509070812439_test-2.Designer.cs">
+      <DependentUpon>201509070812439_test-2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201509070918454_test-3.cs" />
+    <Compile Include="Migrations\201509070918454_test-3.Designer.cs">
+      <DependentUpon>201509070918454_test-3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201510250633254_reg-partner-add.cs" />
+    <Compile Include="Migrations\201510250633254_reg-partner-add.Designer.cs">
+      <DependentUpon>201510250633254_reg-partner-add.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201510250722082_update-company-partner.cs" />
+    <Compile Include="Migrations\201510250722082_update-company-partner.Designer.cs">
+      <DependentUpon>201510250722082_update-company-partner.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201510250933196_fix-reg-partner-error.cs" />
+    <Compile Include="Migrations\201510250933196_fix-reg-partner-error.Designer.cs">
+      <DependentUpon>201510250933196_fix-reg-partner-error.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201511011558089_add-tag-lunch-to-reg.cs" />
+    <Compile Include="Migrations\201511011558089_add-tag-lunch-to-reg.Designer.cs">
+      <DependentUpon>201511011558089_add-tag-lunch-to-reg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Model\AdminUser.cs" />
+    <Compile Include="Model\History.cs" />
+    <Compile Include="Model\RegHistory.cs" />
+    <Compile Include="Model\RegPartner.cs" />
+    <Compile Include="Model\Test2015SepSuvery.cs" />
+    <Compile Include="Model\Test2015SepIssue.cs" />
+    <Compile Include="Model\Event.cs" />
+    <Compile Include="Model\PartnerCompany.cs" />
+    <Compile Include="admin\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\IssueManagement\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\IssueManagement\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\IssueManagement\IssueDetail.aspx.cs">
+      <DependentUpon>IssueDetail.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\IssueManagement\IssueDetail.aspx.designer.cs">
+      <DependentUpon>IssueDetail.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\partnerManagement\AddCompany.aspx.cs">
+      <DependentUpon>AddCompany.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\partnerManagement\AddCompany.aspx.designer.cs">
+      <DependentUpon>AddCompany.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\partnerManagement\AddPartner.aspx.cs">
+      <DependentUpon>AddPartner.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\partnerManagement\AddPartner.aspx.designer.cs">
+      <DependentUpon>AddPartner.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\partnerManagement\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\partnerManagement\Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\partnerManagement\ManageCompany.aspx.cs">
+      <DependentUpon>ManageCompany.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\partnerManagement\ManageCompany.aspx.designer.cs">
+      <DependentUpon>ManageCompany.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\partnerManagement\Stat.aspx.cs">
+      <DependentUpon>Stat.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\partnerManagement\Stat.aspx.designer.cs">
+      <DependentUpon>Stat.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\partnerManagement\UpdateCompany.aspx.cs">
+      <DependentUpon>UpdateCompany.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\partnerManagement\UpdateCompany.aspx.designer.cs">
+      <DependentUpon>UpdateCompany.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\partnerManagement\UpdatePartner.aspx.cs">
+      <DependentUpon>UpdatePartner.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\partnerManagement\UpdatePartner.aspx.designer.cs">
+      <DependentUpon>UpdatePartner.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\login.aspx.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\login.aspx.designer.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\IssueManagement\Stat.aspx.cs">
+      <DependentUpon>Stat.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\IssueManagement\Stat.aspx.designer.cs">
+      <DependentUpon>Stat.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\Test.aspx.cs">
+      <DependentUpon>Test.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\Test.aspx.designer.cs">
+      <DependentUpon>Test.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="admin\UserInfo.aspx.cs">
+      <DependentUpon>UserInfo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="admin\UserInfo.aspx.designer.cs">
+      <DependentUpon>UserInfo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Suvery.aspx.cs">
+      <DependentUpon>Suvery.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Suvery.aspx.designer.cs">
+      <DependentUpon>Suvery.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="user\PartnerPublicRegistration.aspx.cs">
+      <DependentUpon>PartnerPublicRegistration.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="user\PartnerPublicRegistration.aspx.designer.cs">
+      <DependentUpon>PartnerPublicRegistration.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201508281156455_add-event-and-partnercompany-model.resx">
+      <DependentUpon>201508281156455_add-event-and-partnercompany-model.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201508300839506_add-issue-model.resx">
+      <DependentUpon>201508300839506_add-issue-model.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201508301211390_add-issue-model-feature-bool.resx">
+      <DependentUpon>201508301211390_add-issue-model-feature-bool.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201508301251000_add-issue-model-feature-update-name.resx">
+      <DependentUpon>201508301251000_add-issue-model-feature-update-name.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201508301308293_add-issue-model-added-type-content-column.resx">
+      <DependentUpon>201508301308293_add-issue-model-added-type-content-column.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201508301355445_add-issue-model-added-type-content-column2.resx">
+      <DependentUpon>201508301355445_add-issue-model-added-type-content-column2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201508301448549_update-issue-product-mp-string.resx">
+      <DependentUpon>201508301448549_update-issue-product-mp-string.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201508310823238_issue-update-from-remove-4g.resx">
+      <DependentUpon>201508310823238_issue-update-from-remove-4g.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201508311419092_add-suvery-model.resx">
+      <DependentUpon>201508311419092_add-suvery-model.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201508311648216_add-issue-support-reply.resx">
+      <DependentUpon>201508311648216_add-issue-support-reply.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201509061403542_add-admin-user-model.resx">
+      <DependentUpon>201509061403542_add-admin-user-model.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201509061426571_add-admin-user-model-update.resx">
+      <DependentUpon>201509061426571_add-admin-user-model-update.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201509070700350_add-issue-history.resx">
+      <DependentUpon>201509070700350_add-issue-history.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201509070704500_add-issue-history-update.resx">
+      <DependentUpon>201509070704500_add-issue-history-update.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201509070755136_update-all-to-history.resx">
+      <DependentUpon>201509070755136_update-all-to-history.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201509070812111_test-1.resx">
+      <DependentUpon>201509070812111_test-1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201509070812439_test-2.resx">
+      <DependentUpon>201509070812439_test-2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201509070918454_test-3.resx">
+      <DependentUpon>201509070918454_test-3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201510250633254_reg-partner-add.resx">
+      <DependentUpon>201510250633254_reg-partner-add.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201510250722082_update-company-partner.resx">
+      <DependentUpon>201510250722082_update-company-partner.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201510250933196_fix-reg-partner-error.resx">
+      <DependentUpon>201510250933196_fix-reg-partner-error.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201511011558089_add-tag-lunch-to-reg.resx">
+      <DependentUpon>201511011558089_add-tag-lunch-to-reg.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="img\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>5009</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:5009/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
